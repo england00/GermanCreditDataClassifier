@@ -13,8 +13,8 @@ from sklearn.ensemble import StackingClassifier, BaggingClassifier
 from sklearn.feature_selection import SequentialFeatureSelector
 import time
 from colorama import Fore
-from sklearn.metrics import accuracy_score, precision_score, recall_score, \
-    f1_score, plot_roc_curve, plot_confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from scikitplot.metrics import plot_roc_curve, plot_confusion_matrix
 
 ################################################### OPTIONS ############################################################
 

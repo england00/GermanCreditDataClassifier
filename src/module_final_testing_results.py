@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-from sklearn.metrics import accuracy_score, precision_score, recall_score, \
-    f1_score, plot_roc_curve, plot_confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from scikitplot.metrics import plot_roc_curve, plot_confusion_matrix
 
 
 ############################################### FINAL TESTING RESULTS ##################################################
