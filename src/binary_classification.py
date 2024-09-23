@@ -30,8 +30,8 @@ def title(text):
 #################################################### MAIN ##############################################################
 
 if __name__ == "__main__":
-    # DATA ACQUISION
-    title('DATA ACQUISION')
+    # DATA ACQUISITION
+    title('DATA ACQUISITION')
     DATASET_PATH = '../data/german.data'
     training_set, testing_set, features_names = loading_dataset(DATASET_PATH)
 
