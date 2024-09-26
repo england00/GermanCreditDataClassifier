@@ -18,7 +18,7 @@ from scikitplot.metrics import plot_roc_curve, plot_confusion_matrix
 
 ################################################### OPTIONS ############################################################
 
-PLOT = True
+PLOT = False
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=UserWarning)
