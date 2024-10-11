@@ -367,11 +367,11 @@ def results(final_model, X_testing, y_testing, y_prediction):
 
     # performance plots
     # ROC curve
-    plot_roc_curve(final_model, X_testing, y_testing)
-    plt.show()
+    # plot_roc_curve(final_model, X_testing, y_testing)
+    # plt.show()
     # confusion matrix
-    plot_confusion_matrix(final_model, X_testing, y_testing)
-    plt.show()
+    # plot_confusion_matrix(final_model, X_testing, y_testing)
+    # plt.show()
 
 
 if __name__ == "__main__":
