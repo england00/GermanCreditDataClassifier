@@ -41,8 +41,10 @@ generating predictions providing a clear, reproducible starting point for buildi
     │   ├── german.data
     │   ├── german.data-numeric
     │   └── german.doc
+	├── docs
+		├── report.pdf
+	├── LICENCE
     ├── README.md
-    ├── report.pdf
     └── src
         ├── binary_classification.py
         ├── binary_classification_no_modules.py
